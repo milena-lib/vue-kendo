@@ -9,24 +9,14 @@
   },
   "dependencies": {
     "@progress/kendo-data-query": "^1.5.5",
-    "@progress/kendo-drawing": "^1.10.0",
     "@progress/kendo-licensing": "^1.1.4",
     "@progress/kendo-theme-default": "^4.38.1",
     "@progress/kendo-vue-animation": "^2.1.6",
     "@progress/kendo-vue-data-tools": "^2.1.6",
-    "@progress/kendo-vue-dateinputs": "^2.1.6",
-    "@progress/kendo-vue-dropdowns": "^2.1.6",
-    "@progress/kendo-vue-excel-export": "^2.1.6",
     "@progress/kendo-vue-grid": "^2.1.6",
-    "@progress/kendo-vue-inputs": "^2.1.6",
     "@progress/kendo-vue-intl": "^2.1.6",
-    "@progress/kendo-vue-pdf": "^2.1.6",
     "@progress/kendo-vue-popup": "^2.1.6",
-    "cldr-core": "36.0.0",
-    "cldr-dates-full": "36.0.0",
-    "cldr-numbers-full": "36.0.0",
     "core-js": "^3.6.5",
-    "lodash": "^4.17.21",
     "vue": "^3.0.0"
   },
   "devDependencies": {
@@ -51,8 +41,7 @@
       "parser": "babel-eslint"
     },
     "rules": {
-      "no-unused-vars": "off",
-      "vue/no-unused-components": "off"
+      "no-unused-vars": "off"
     }
   },
   "browserslist": [
