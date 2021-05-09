@@ -1,4 +1,5 @@
 <template>
+  <h2>Grid 1</h2>
   <localization :language="currentLocale.language">
         <intl :locale="currentLocale.locale" >
             <div>
@@ -23,9 +24,9 @@
                         @expandchange="expandChange"
                         @columnreorder="columnReorder"
                     >
-                    <template v-slot:myTemplate="{props}">
-                        <custom :data-item="props.dataItem" />
-                    </template>
+                        <template v-slot:myTemplate="{props}">
+                            <custom :data-item="props.dataItem" />
+                        </template>
                         <toolbar>
                             Locale:&nbsp;&nbsp;&nbsp;
                             <dropdownlist
@@ -98,7 +99,7 @@ orders.forEach(o => {
 });
 
 export default {
-  name: 'HelloWorld',
+  name: 'Orders',
   props: {
     msg: String
   },

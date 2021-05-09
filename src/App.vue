@@ -1,14 +1,20 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Orders msg="Welcome to Your Vue.js App"/>
+  <Products />
+  <ColumnMenu />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Orders from './components/Orders.vue';
+import Products from './components/Products.vue';
+import ColumnMenu from './components/ColumnMenu.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Orders,
+    Products,
+    ColumnMenu
   }
 }
 </script>
